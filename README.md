@@ -5,7 +5,7 @@ This repository shows the exploration and execution of basic CRUD operations on 
 ## Step-by-Step Instructions
 1. Download the pre-built SQLite database into my project folder, which I opened on VSCode. 
 2. Connect to SQLite database by installing the SQLite extension on VSCode. 
-![SQLite Extension]('images/sqlite_extension.png') 
+![SQLite Extension](images/sqlite_extension.png) 
 3. Create a new `.sql` file to add the query. 
 4. To run the query, press `CMD + Shift + P` and select `>SQLite: Run Query`. Alternatively, you can highlight your query, right-click, and select `Run Selected Query`. 
 
@@ -33,7 +33,7 @@ SELECT institution
 FROM university_rankings
 WHERE country = 'Japan' AND world_rank <= 200 AND year = 2013;
 ```
-![Japanese Universities]('images/japan_universities.png')
+![Japanese Universities](images/japan_universities.png)
 
 ### Update
 I updated the score for the University of Oxford in 2014 by running the following query: 
